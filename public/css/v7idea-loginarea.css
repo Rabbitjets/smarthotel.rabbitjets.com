@@ -1,0 +1,148 @@
+/* 
+	@elements
+--------------------------------------
+ Programmer: Louis (V7 Idea Technology Ltd.)
+ Date: 2016-02-20
+ Ver: 1.0
+ Description: used for login form.
+-------------------------------------- */
+
+.loginArea {
+	
+		width:100%;
+		height:600px;
+		background-image:url(../images/login-bg.jpg);
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		margin:-80px auto 0px auto;
+		position:relative;
+		padding: 0px;
+		border-bottom: 10px #fe9303 solid;
+		
+	}
+	
+	.loginArea .loginForm {
+		
+		width:380px;
+		background-color:rgba(254, 147, 3, 0.85);
+		height:613px;
+		position:absolute;
+		top:110px;
+		right:100px;
+		
+	}
+	
+	.loginArea .loginForm .topHeader {
+	
+		width:85%;
+		position:relative;
+		margin:30px auto 10px auto;
+		border-bottom: 1px solid #fff;
+		height:50px;
+		
+	}
+	
+	.loginArea .loginForm .topHeader .icon {
+	
+		float:left;
+		margin: 5px 10px 0px 5px;
+		
+	}
+	
+	.loginArea .loginForm .topHeader .icon img {
+	
+		width:auto;
+		height:auto;
+	
+	}
+	
+	.loginArea .loginForm .topHeader  .text {
+	
+		font-size:12pt;
+		color:#fff;
+		line-height:50px;
+		
+	}
+	
+	.loginArea .loginForm .form {
+	
+		width:85%;
+		margin: 10px auto 10px auto;	
+		
+	}
+		
+	.loginArea .loginForm .form input {
+	
+		border:2px solid rgba(255,201,129, 0.8);
+		background-color:rgba(255,201,129, 0.8);
+		line-height:40px;
+		font-size:11pt;
+		height:50px;
+		margin-bottom:15px;
+		color:#050505;
+		box-shadow:none;
+		
+	}
+	
+	.loginArea .loginForm .form input:focus {
+	
+		box-shadow: rgba(0,0, 0, 0.5) 0px 0px 10px;
+		border:2px solid rgba(255,255,255, 0.8);
+		
+	}
+	
+	.loginArea .loginForm .form .submitButton {
+	
+		width:110px;
+		height:35px;
+		background-color:#7d2525;
+		color:#fff;
+		font-size:12pt;
+		float:right;
+		margin:10px;
+		text-align:center;
+		line-height:38px;
+		border-radius:5px;
+		padding:0px;
+		cursor:pointer;	
+		
+	}
+	
+	.loginArea .loginForm .form .submitButton:hover {
+		background-color:#5d1c1c;
+	}
+	
+	.loginArea .loginForm .form .submitButton:active {
+		background-color:#2f3236;
+	}
+	
+	.loginArea .loginForm .note {
+		
+		width:85%;
+		position:relative;
+		margin:30px auto 10px auto;
+		color:#fff;
+		font-size:12pt;
+		
+	}
+	
+	.loginArea .loginForm .note p {
+		
+		color:#fff;
+		line-height:14pt;
+		font-size:10.5pt;
+		
+	}
+	
+	.loginArea .loginForm .note p a:link, .loginArea .loginForm .note p a:visited {
+		
+		color:#7d2525;
+		
+	}
+	
+	.form-control::-webkit-input-placeholder { color: #666;  }
+	.form-control:-moz-placeholder { color: #666; }
+	.form-control::-moz-placeholder { color: #666; }
+	.form-control:-ms-input-placeholder { color: #666; }
+

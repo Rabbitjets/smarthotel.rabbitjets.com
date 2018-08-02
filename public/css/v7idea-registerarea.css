@@ -1,0 +1,161 @@
+/* 
+	@elements
+--------------------------------------
+ Programmer: Louis (V7 Idea Technology Ltd.)
+ Date: 2016-02-20
+ Ver: 1.0
+ Description: used for login form.
+-------------------------------------- */
+
+.registerArea {
+	
+		width:100%;
+		min-height:592px;
+		background-image:url(../images/register-bg.jpg);
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		margin:-80px auto 0px auto;
+		position:relative;
+		padding: 0px;
+		border-bottom: 10px #fe9303 solid;
+		
+	}
+	
+	.registerArea .registerForm {
+		
+		width:90%;
+		background-color:rgba(254, 147, 3, 0.85);
+		min-height:592px;
+		margin:110px auto -10px auto;
+		padding-top:10px;
+		padding-bottom:30px;
+		max-width:700px;
+		
+	}
+	
+	.registerArea .registerForm .topHeader {
+	
+		width:85%;
+		position:relative;
+		margin:30px auto 10px auto;
+		border-bottom: 1px solid #fff;
+		height:50px;
+		
+		
+	}
+	
+	.registerArea .registerForm .topHeader .icon {
+	
+		float:left;
+		margin: 5px 10px 0px 5px;
+		
+	}
+	
+	.registerArea .registerForm .topHeader .icon img {
+	
+		width:auto;
+		height:auto;
+	
+	}
+	
+	.registerArea .registerForm .topHeader  .text {
+	
+		font-size:12pt;
+		color:#fff;
+		line-height:50px;
+		
+	}
+	
+	.registerArea .registerForm .form {
+	
+		width:80%;
+		margin: 10px auto 10px auto;	
+		
+	}
+		
+	.registerArea .registerForm .form input {
+	
+		border:2px solid rgba(255,201,129, 0.8);
+		background-color:rgba(255,201,129, 0.8);
+		line-height:40px;
+		font-size:11pt;
+		height:50px;
+		margin-bottom:15px;
+		color:#050505;
+		box-shadow:none;
+		
+	}
+	
+	.registerArea .registerForm .form input:focus {
+	
+		box-shadow: rgba(0,0, 0, 0.5) 0px 0px 10px;
+		border:2px solid rgba(255,255,255, 0.8);
+		
+	}
+	
+	.registerArea .registerForm .form .submitButton {
+	
+		width:110px;
+		height:35px;
+		background-color:#7d2525;
+		color:#fff;
+		font-size:12pt;
+		float:right;
+		margin:10px;
+		text-align:center;
+		line-height:38px;
+		border-radius:5px;
+		padding:0px;
+		cursor:pointer;	
+		
+	}
+	
+	.registerArea .registerForm .form .submitButton:hover {
+		background-color:#5d1c1c;
+	}
+	
+	.registerArea .registerForm .form .submitButton:active {
+		background-color:#2f3236;
+	}
+	
+	.registerArea .registerForm .note {
+		
+		width:85%;
+		position:relative;
+		margin:30px auto 10px auto;
+		color:#fff;
+		font-size:12pt;
+		padding-bottom:30px;
+	}
+	
+	.registerArea .registerForm .note p {
+		
+		color:#fff;
+		line-height:14pt;
+		font-size:10.5pt;
+		
+	}
+	
+	.registerArea .registerForm .note p a:link, .registerArea .registerForm .note p a:visited {
+		
+		color:#7d2525;
+		
+	}
+	
+	.form-control::-webkit-input-placeholder { color: #666;  }
+	.form-control:-moz-placeholder { color: #666; }
+	.form-control::-moz-placeholder { color: #666; }
+	.form-control:-ms-input-placeholder { color: #666; }
+
+.policyArea {
+    width: 600px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 11pt;
+    line-height: 20pt;
+    margin: 0px auto 30px auto;
+    padding: 10px 10px 30px 10px;
+}

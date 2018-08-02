@@ -1,0 +1,169 @@
+/* 
+	@elements
+--------------------------------------
+ Programmer: Louis (V7 Idea Technology Ltd.)
+ Date: 2016-02-20
+ Ver: 1.0
+ Description: used for login form.
+-------------------------------------- */
+
+.memberArea {
+	
+		width:100%;
+		min-height:592px;
+		background-image:url(../images/register-bg.jpg);
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		margin:-80px auto 0px auto;
+		position:relative;
+		padding: 0px;
+		border-bottom: 10px #fe9303 solid;
+	
+	}
+	
+	.memberArea .memberForm {
+		
+		width:90%;
+		background-color:rgba(254, 147, 3, 0.85);
+		min-height:592px;
+		margin:110px auto -10px auto;
+		padding-top:10px;
+		padding-bottom:30px;
+		max-width:700px;
+		
+	}
+	
+	.memberArea .memberForm .topHeader {
+	
+		width:85%;
+		position:relative;
+		margin:30px auto 10px auto;
+		border-bottom: 1px solid #fff;
+		height:50px;
+		
+		
+	}
+	
+	.memberArea .memberForm .topHeader .icon {
+	
+		float:left;
+		margin: 5px 10px 0px 5px;
+		
+	}
+	
+	.memberArea .memberForm .topHeader .icon img {
+	
+		width:auto;
+		height:auto;
+	
+	}
+	
+	.memberArea .memberForm .topHeader  .text {
+	
+		font-size:12pt;
+		color:#fff;
+		line-height:50px;
+		
+	}
+	
+	.memberArea .memberForm .form{
+	
+		width:80%;
+		margin: 20px auto 10px auto;	
+		color:#fff;
+		
+	}
+	
+	.memberArea .memberForm .form p {
+	
+		color:#fff;
+		font-size:11pt;
+		
+	}
+	
+	.memberArea .memberForm .form input {
+	
+		border:2px solid rgba(255,201,129, 0.8);
+		background-color:rgba(255,201,129, 0.8);
+		line-height:40px;
+		font-size:11pt;
+		height:50px;
+		margin-bottom:15px;
+		color:#050505;
+		box-shadow:none;
+		
+	}
+	
+	.memberArea .memberForm .form input:focus {
+	
+		box-shadow: rgba(0,0, 0, 0.5) 0px 0px 10px;
+		border:2px solid rgba(255,255,255, 0.8);
+		
+	}
+	
+	.memberArea .memberForm .form .submitButton {
+	
+		width:110px;
+		height:35px;
+		background-color:#7d2525;
+		color:#fff;
+		font-size:12pt;
+		float:right;
+		margin:10px;
+		text-align:center;
+		line-height:38px;
+		border-radius:5px;
+		padding:0px;
+		cursor:pointer;	
+		
+	}
+	
+	.memberArea .memberForm .form .submitButton:hover {
+		background-color:#5d1c1c;
+	}
+	
+	.memberArea .memberForm .form .submitButton:active {
+		background-color:#2f3236;
+	}
+	
+	.memberArea .memberForm .note {
+		
+		width:85%;
+		position:relative;
+		margin:30px auto 10px auto;
+		color:#fff;
+		font-size:12pt;
+		padding-bottom:30px;
+	}
+	
+	.memberArea .memberForm .note p {
+		
+		color:#fff;
+		line-height:14pt;
+		font-size:10.5pt;
+		
+	}
+	
+	.memberArea .memberForm .note p a:link, .memberArea .memberForm .note p a:visited {
+		
+		color:#7d2525;
+		
+	}
+	
+	.form-control::-webkit-input-placeholder { color: #666;  }
+	.form-control:-moz-placeholder { color: #666; }
+	.form-control::-moz-placeholder { color: #666; }
+	.form-control:-ms-input-placeholder { color: #666; }
+
+.policyArea {
+    width: 600px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 11pt;
+    line-height: 20pt;
+    margin: 0px auto 30px auto;
+    padding: 10px 10px 30px 10px;
+}
